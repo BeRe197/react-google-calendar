@@ -46,6 +46,6 @@ jobs:
         run: |
           git config --local user.name actions-user
           git config --local user.email "actions@github.com" 
-          git add ./dist
+          git add *
           git commit -am "GH Action - Dist folder added - $(date)" 
           git push -f origin main
