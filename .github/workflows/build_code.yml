@@ -42,15 +42,12 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Update Code in Repo
+      - name: Commit files
         run: |
           git config --local user.name actions-user
           git config --local user.email "actions@github.com" 
-          git add dist
-          git commit -am "GH Action - Dist folder added - $(date)" 
-          
-      - name: Push changes # push the output folder to your repo
+          git commit -a -m "GH Action - Dist folder added"
+      - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.MY_GITHUB_TOKEN }}
-          force: true
