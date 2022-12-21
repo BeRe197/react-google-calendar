@@ -32,7 +32,7 @@ export function loadCalendarAPI(apiKey) {
  * @param {number} [maxResults=1000] maximum number of events returned, can be up to 2500, currently doesn't support more events
  * @returns {Object} see https://developers.google.com/calendar/v3/reference/events/list for shape of response object
  */
-export function getEventsList(calendarId, maxResults = 1000) {
+export function getEventsList(calendarId, maxResults = 2500) {
   return gapi.client.calendar.events.list({
     calendarId: calendarId,
     maxResults: maxResults,
