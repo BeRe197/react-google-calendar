@@ -29,7 +29,7 @@ var Languages = {
   },
   DE: {
     MONTHS: ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"],
-    DAYS: ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
+    DAYS: ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"]
   },
   PL: {
     MONTHS: ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec", "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"],
