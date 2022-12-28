@@ -101,7 +101,7 @@ export const Languages = {
       "November",
       "Dezember",
     ],
-    DAYS: ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"],
+    DAYS: ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"],
   },
   PL: {
     MONTHS: [
